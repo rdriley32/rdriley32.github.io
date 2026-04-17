@@ -1,8 +1,8 @@
 ---
-name: Vega Lite Example Project
+name: UFO Data Project
 tools: [Python, HTML, vega-lite]
 image: assets/pngs/cars.png
-description: This is a "showcase" project that uses vega-lite for interactive viz!
+description: This is from homework 5
 custom_js:
   - vega.min
   - vega-lite.min
@@ -11,7 +11,7 @@ custom_js:
 ---
 
 
-# Example including vega-lite
+# UFO Data Homework 5
 
 Example comes from this [great blog post right here](https://blog.4dcu.be/programming/2021/05/03/Interactive-Visualizations.html) that was also used in [our test import script](https://github.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2022/blob/main/week01/test_imports_week01.ipynb).
 
