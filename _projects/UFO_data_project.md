@@ -1,7 +1,7 @@
 ---
 name: UFO Data Project
 tools: [Python, HTML, vega-lite]
-image: assets/pngs/cars.png
+image: assets/pngs/ufo_chart.png
 description: This is from homework 5
 custom_js:
   - vega.min
