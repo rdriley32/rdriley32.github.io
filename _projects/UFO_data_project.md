@@ -13,17 +13,14 @@ custom_js:
 
 # UFO Data Homework 5
 
-Example comes from this [great blog post right here](https://blog.4dcu.be/programming/2021/05/03/Interactive-Visualizations.html) that was also used in [our test import script](https://github.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2022/blob/main/week01/test_imports_week01.ipynb).
 
-We can use a vegachart HTML tag like so:
+<vegachart schema-url="{{ site.baseurl }}/assets/json/ufo_chart.json" style="width: 100%"></vegachart>
 
-```
-<vegachart schema-url="{{ site.baseurl }}/assets/json/cars.json" style="width: 100%"></vegachart>
-```
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/cars.json" style="width: 100%"></vegachart>
+The first graph is a line chart that shows the average UFO sighting duration in seconds over time for all US States included in the dataset. I grouped the data by date and state and then the mean of duration of sightings in seconds. Using the mean removes some of the outliers that are present in the data. The x axis shows the time in years and is a temporal scale which is used for data related to time. The y axis is the duration of the sighting in seconds and is a quantitative scale because that data is numerical and we are looking at the size of each value in reference to each other. We are also using a “symlog” due to the large variation of values which makes a better representation of the values in the visualization.  
 
-In theory, you can also use [Jekyll hooks](https://jekyllrb.com/docs/plugins/hooks/) to do it, but I haven't figured out a way that looks nice yet.
+For interactivity, I included a dropdown menu that allows the user to select a state and have that state’s information show on the graph. My initial idea was to show all state’s graphs and highlight them, bold them, and gray the other lines out to make them less visible. However, this did not work as there were too many states to accommodate and it made it very difficult to be able to see the data clearly. I then did some google searches to see if there was a way to get one line to show up and hide the rest so only one line would be visible. I found this vega- altair explanation, https://altair-viz.github.io/user_guide/transform/filter.html#transform-options,  of filter which mentioned you could transform objects based on the selection.
+
 
 
 ## Search The Data & Methods
