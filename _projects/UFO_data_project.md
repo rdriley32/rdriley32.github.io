@@ -22,22 +22,9 @@ The first graph is a line chart that shows the average UFO sighting duration in 
 For interactivity, I included a dropdown menu that allows the user to select a state and have that state’s information show on the graph. My initial idea was to show all state’s graphs and highlight them, bold them, and gray the other lines out to make them less visible. However, this did not work as there were too many states to accommodate and it made it very difficult to be able to see the data clearly. I then did some google searches to see if there was a way to get one line to show up and hide the rest so only one line would be visible. I found this vega- altair explanation, https://altair-viz.github.io/user_guide/transform/filter.html#transform-options,  of filter which mentioned you could transform objects based on the selection.
 
 
+<vegachart schema-url="{{ site.baseurl }}/assets/json/ufo_chart.json" style="width: 100%"></vegachart>
 
-## Search The Data & Methods
-
-Below is where we can put some links to both the data and the analysis code as buttons:
-
-```
-<div class="left">
-{% include elements/button.html link="https://github.com/vega/vega/blob/main/docs/data/cars.json" text="The Data" %}
-</div>
-
-<div class="right">
-{% include elements/button.html link="https://blog.4dcu.be/programming/2021/05/03/Interactive-Visualizations.html" text="The Analysis" %}
-</div>
-```
-
-<!-- these are written in a combo of html and liquid --> 
+The second graph shows the number of total UFO sightings for all states each year. The x axis shows the time in years and is a temporal scale which is used for data related to time. The y axis is the count of each state’s number of UFO sightings and is a quantitative scale because that data is numerical and we are looking at the size of each value in reference to each other. The bar chart format was chosen because it clearly shows the different values and trends over time. It looked better in this format than using a linear graph. 
 
 <div class="left">
 {% include elements/button.html link="https://github.com/vega/vega/blob/main/docs/data/cars.json" text="The Data" %}
