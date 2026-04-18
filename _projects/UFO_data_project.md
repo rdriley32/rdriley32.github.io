@@ -27,10 +27,12 @@ For interactivity, I included a dropdown menu that allows the user to select a s
 The second graph shows the number of total UFO sightings for all states each year. The x axis shows the time in years and is a temporal scale which is used for data related to time. The y axis is the count of each state’s number of UFO sightings and is a quantitative scale because that data is numerical and we are looking at the size of each value in reference to each other. The bar chart format was chosen because it clearly shows the different values and trends over time. It looked better in this format than using a linear graph. 
 
 <div class="left">
-{% include elements/button.html link="https://github.com/vega/vega/blob/main/docs/data/cars.json" text="The Data" %}
+{% include elements/button.html link="https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/ufo-subset-spring2023.csv" text="The Data" %}
 </div>
 
 <div class="right">
-{% include elements/button.html link="https://github.com/jnaiman/online_cv_public/blob/main/python_notebooks/test_generate_plots.ipynb" text="The Analysis" %}
+{% include elements/button.html link="https://github.com/rdriley32/rdriley32.github.io/blob/main/python_notebooks/UFO_Project_Workbook.ipynb" text="The Analysis" %}
 </div>
+
+
 
