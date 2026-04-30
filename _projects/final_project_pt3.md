@@ -46,4 +46,4 @@ This is a line graph that shows the comparison of US murder rates, Australian mu
 {% include elements/button.html link="https://github.com/rdriley32/rdriley32.github.io/blob/main/python_notebooks/Workbook.ipynb" text="The Analysis" %}
 </div>
 
-I unfortunatley ran out of time to create this project as I fully intended. I look forward to make the necessary corrections once feedback is given to be able to recoup as many points as possible. I am not super proud of this work. Thank you for your time. 
+edit
