@@ -31,8 +31,7 @@ The second graph shows the number of total UFO sightings for all states each yea
 </div>
 
 <div class="right">
-{% include elements/button.html link="https://github.com/rdriley32/rdriley32.github.io/blob/main/python_notebooks/UFO_Project_Workbook.ipynb" text="The Analysis" %}
+{% include elements/button.html link="https://github.com/rdriley32/rdriley32.github.io/blob/main/python_notebooks/Workbook.ipynb" text="The Analysis" %}
 </div>
-
 
 
