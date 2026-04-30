@@ -53,4 +53,3 @@ This is a line graph that shows the comparison of US murder rates, Australian mu
 
 
 
-
