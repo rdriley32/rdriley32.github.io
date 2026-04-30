@@ -20,7 +20,7 @@ Ryan Riley
 <vegachart schema-url="{{ site.baseurl }}/assets/json/Users_0Ddriley_Desktop_0Ddriley32.github.io_07ssets_jsoncompare_murder_rate_lines.json" style="width: 100%"></vegachart>
 
 
-<img src = '{{ site.baseurl }}/assets/pngs/grouped_bar_chart.png style='display:block; margin-left:0, margin-right:auto;'>
+<img src = '{{ site.baseurl }}/assets/pngs/grouped_bar_chart.png' style='display:block; margin-left:0, margin-right:auto;'>
 
 <img src = '{{ site.baseurl }}/assets/pngs/grouped_bar_chart.png'>
 
