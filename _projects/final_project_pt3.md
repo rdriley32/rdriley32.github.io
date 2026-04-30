@@ -39,9 +39,7 @@ Source: Office for National Statistics. (2026, February 5). Homicide in England 
 This is a line graph that shows the comparison of US murder rates, Australian murder rates, and United Kingdom murder rates. As you can see, the US has almost four times the murder rates of the other two countries. This graph was created by me using the sources mentioned above.  
 
 
-C:\Users\rdriley\Desktop\rdriley32.github.io\assets\json\Users_0Ddriley_Desktop_0Ddriley32.github.io_07ssets_jsoncorrect_side_grouped_bar.json
-
-<vegachart schema-url="{{ site.baseurl }}/assets/json/Users_0Ddriley_Desktop_0Ddriley32.github.io_07ssets_jsoncorrect_side_grouped_bar.json" style="width: 100%"></vegachart>
+<img src = '{{ site.baseurl }}/assets/pngs/grouped_bar_chart.png'>
 
 <div class="left">
 {% include elements/button.html link="https://github.com/vega/vega/blob/main/docs/data/cars.json" text="The Data" %}
@@ -51,8 +49,8 @@ C:\Users\rdriley\Desktop\rdriley32.github.io\assets\json\Users_0Ddriley_Desktop_
 {% include elements/button.html link="https://github.com/rdriley32/rdriley32.github.io/blob/main/python_notebooks/Workbook.ipynb" text="The Analysis" %}
 </div>
 
-<img src = 'C:\Users\rdriley\Desktop\rdriley32.github.io\assets\pngs\grouped_bar_chart.png'>
 
-<img src = '{{ site.baseurl }}/assets/pngs/grouped_bar_chart.png'>
 
-![alt text](C:\Users\rdriley\Desktop\rdriley32.github.io\assets\pngs\grouped_bar_chart.png)
+
+
+

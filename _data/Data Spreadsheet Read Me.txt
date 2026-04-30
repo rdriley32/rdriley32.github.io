@@ -1,0 +1,51 @@
+Data Spreadsheet Read Me
+
+
+**United States Crime Data (2010-2024)
+
+File Name: us_state_crime-2010-2024.csv
+
+Obtained from: DatHere, https://data.dathere.com/
+Link to Data: https://data.dathere.com/dataset/5ba9397c-0610-4578-8451-6f9cdba85aea/resource/527ea883-2e93-4ac6-8771-87a79cc26203/download/fbi_state_crime-2010-2024.csv
+Data is sourced from the Federal Bureau of Investigation Uniform Crime Report from 2010 to 2024
+Retrieved 4/17/2026
+
+APA Citation: 
+
+U.S. Department of Justice, Federal Bureau of Investigation. (2025, August 28). FBI crime statistics. datHere Data Catalog. Retrieved April 17, 2026, from https://data.dathere.com/dataset/fbi-crime-statistics
+
+Edits: No edits made to this data set. 
+
+
+
+**Australia Homicide Rates by Territory (2010-2024)
+
+File Name: australia homicides 2010-2024.csv
+
+Obtained from: Australian Government, Australtian Institute of Criminology, https://www.aic.gov.au/
+Link to Data: https://www.aic.gov.au/sites/default/files/2026-02/appendix_b_homicide_incidents_1989-90_to_2024-25.XLSX
+Retrieved 4/27/26
+
+APA Citation: 
+
+Bricknell, S., & Miles, H. (2026). Homicide in Australia 2024–25 (Statistical Report No. 58). Australian Institute of Criminology. https://doi.org/10.52922/sr78236
+
+Edits: Deleted all other tables in the spreadsheet that I was not using. Converted file to csv format. Deleted title of the spreadsheet in first row. Added the column "Years" for the column with year values. Deleted all rows before 2010. Changed years from a range to a single year (i.e. 2009-2010 to 2010). Removed the row for 2025. Removed row with unnecessary text. Removed row and columm with total values. Changed title of columns from the abbreviation of territories to their full name (i.e. NSW to New South Whales). Added column for "total murders for Australia" for each year. Added column for the total population of Australia and filled in data using "https://www.macrotrends.net/global-metrics/countries/aus/australia/population." Added column titled "Australian Murder Rate" and filled in by dividing the total population by the total number of murders of Australia and multiplying that by 100,000 to get a murder rate per 100,000.
+
+
+
+***England Homicide Rates by Territory (2010-2024)
+
+File Name: england homicides 2010-2024
+
+Obtained from: Office of National Statistics, https://www.ons.gov.uk/
+Link to Data: https://www.ons.gov.uk/generator?uri=/peoplepopulationandcommunity/crimeandjustice/articles/homicideinenglandandwales/yearendingmarch2025/b1a5adf8&format=csv
+Retrieved: 4/27/26
+
+APA Citation: 
+
+Office for National Statistics. (2026, February 5). Homicide in England and Wales: Year ending March 2025. Retrieved April 27, 2026, from https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/articles/homicideinenglandandwales/yearendingmarch2025
+
+Edits: Removed rows with text describing what the spreadsheet is and any additional text. Simplified name of columns ("year ending" to "years," "number of homicides" to "homicides"). Changed value of years from an erroneous date due to bad excel formatting to a single year value (i.e. Value was supposed to be March 10 which was showing as Mar-10 instead of March 2010. I changed to 2010). Deleted all years outside of 2010 to 2024. Added column for population and filled in using https://www.macrotrends.net/global-metrics/countries/gbr/united-kingdom/population. Added column for "UK murder rate" and filled it in by dividing the total population of England by the total murders in England and multiplied that by 100,000 to get a murder rate of 100,000. 
+
+
