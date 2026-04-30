@@ -46,7 +46,7 @@ This is a line graph that shows the comparison of US murder rates, Australian mu
 </div>
 
 <div class="right">
-{% include elements/button.html link="https://github.com/rdriley32/rdriley32.github.io/blob/main/python_notebooks/Workbook.ipynb" text="The Analysis" %}
+{% include elements/button.html link="https://github.com/rdriley32/rdriley32.github.io/blob/main/python_notebooks/Workbook.ipynb" text="Jupyter Notebook" %}
 </div>
 
 
