@@ -42,7 +42,7 @@ This is a line graph that shows the comparison of US murder rates, Australian mu
 <img src = '{{ site.baseurl }}/assets/pngs/grouped_bar_chart.png'>
 
 <div class="left">
-{% include elements/button.html link="https://github.com/vega/vega/blob/main/docs/data/cars.json" text="The Data" %}
+{% include elements/button.html link="https://github.com/rdriley32/rdriley32.github.io/tree/main/_data" text="Data Spreadsheet Folder" %}
 </div>
 
 <div class="right">
