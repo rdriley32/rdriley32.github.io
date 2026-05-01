@@ -15,16 +15,16 @@ custom_js:
 
 Ryan Riley
 
+<img src = '{{ site.baseurl }}/assets/pngs/grouped_bar_chart.png'>
 
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/Users_0Ddriley_Desktop_0Ddriley32.github.io_07ssets_jsonus_murder_rate_line.json" style="width: 100%"></vegachart>
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/Users_0Ddriley_Desktop_0Ddriley32.github.io_07ssets_jsoncompare_murder_rate_lines.json" style="width: 100%"></vegachart>
 
 <img src = '{{ site.baseurl }}/assets/pngs/side_population_grouped_bar.png'>
 
 
-<img src = '{{ site.baseurl }}/assets/pngs/grouped_bar_chart.png'>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/Users_0Ddriley_Desktop_0Ddriley32.github.io_07ssets_jsonus_murder_rate_line.json" style="width: 100%"></vegachart>
 
 
 
