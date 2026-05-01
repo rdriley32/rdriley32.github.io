@@ -46,6 +46,6 @@ The last graph is a comparison line chart for the murder rates of all US States 
 </div>
 
 
-
+Citations for sources of all graphs are located in the “Date Spreadsheet Folder” in the “Data Spreadsheet Read Me.txt” file. 
 
 
