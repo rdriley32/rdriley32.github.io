@@ -17,17 +17,22 @@ Ryan Riley
 
 
 
+<vegachart schema-url="{{ site.baseurl }}/assets/json/Users_0Ddriley_Desktop_0Ddriley32.github.io_07ssets_jsonus_murder_rate_line.jso" style="width: 100%"></vegachart>
+
 <vegachart schema-url="{{ site.baseurl }}/assets/json/Users_0Ddriley_Desktop_0Ddriley32.github.io_07ssets_jsoncompare_murder_rate_lines.json" style="width: 100%"></vegachart>
 
 <img src = '{{ site.baseurl }}/assets/pngs/side_population_grouped_bar.png'>
 
-C:\Users\rdriley\Desktop\rdriley32.github.io\assets\pngs\side_population_grouped_bar.png
 
 <img src = '{{ site.baseurl }}/assets/pngs/grouped_bar_chart.png'>
+
+
 
 <div class="left">
 {% include elements/button.html link="https://github.com/rdriley32/rdriley32.github.io/tree/main/_data" text="Data Spreadsheet Folder" %}
 </div>
+
+
 
 <div class="right">
 {% include elements/button.html link="https://github.com/rdriley32/rdriley32.github.io/blob/main/python_notebooks/Workbook.ipynb" text="Jupyter Notebook" %}
