@@ -50,21 +50,6 @@ However, some point to gun laws as one of the largest contributing factors of hi
 
 
 
-BREAK
-
-
-
-<vegachart schema-url="{{ site.baseurl }}/assets/json/Users_0Ddriley_Desktop_0Ddriley32.github.io_07ssets_jsoncompare_murder_rate_lines.json" style="width: 100%"></vegachart>
-
-
-
-<img src = '{{ site.baseurl }}/assets/pngs/side_population_grouped_bar.png'>
-
-
-
-<vegachart schema-url="{{ site.baseurl }}/assets/json/Users_0Ddriley_Desktop_0Ddriley32.github.io_07ssets_jsonus_murder_rate_line.json" style="width: 100%"></vegachart>
-
-BREAK 
 
 <div class="left">
 {% include elements/button.html link="https://github.com/rdriley32/rdriley32.github.io/tree/main/_data" text="Data Spreadsheet Folder" %}
@@ -78,7 +63,6 @@ BREAK
 
 
 Please note that there was no data for the year 2016 in the dataset for the United States Homicide Rates. Citations for sources of all graphs are located in the “Date Spreadsheet Folder” in the “Data Spreadsheet Read Me.txt” file.
-
 
 
 
