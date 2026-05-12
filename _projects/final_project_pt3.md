@@ -11,29 +11,60 @@ custom_js:
 ---
 
 
-# Homicide Trends: A Data Comparison of Homicide Rates Across the US, UK, and Australia (2010-2024)
+# The United States Has a Murder Problem: A Data Comparison of Homicide Rates Across the US, UK, and Australia (2010-2024)
 
 Ryan Riley
 
+The United States has a serious murder problem. In the developed world, the United State has the highest rates of homicides by a wide margin. There are many possible causes that could contribute to this fact like population or the United States’ violent history. Others believe that the most contributing factor is that guns are readily accessible in the United States while other developed countries have stricter gun laws. 
+
+The line chart below represents the murder rate per capita for each US State from 2010 to 2024. Using the dropdown below the graph, you can select which state you would like to highlight. That state’s murder rate line will be highlighted with its corresponding color while all the other lines turn to gray. This allows you to effectively compare where each state’s murder rate is to other states. As you can see, Louisiana has the highest murder rate per capita in the United States with a high of 16 murders per 100,00 people in 2022. Already the presumption that an area with a high population will have more murder is challenged. Louisiana is roughly the 25th largest state by population in the United States yet is has the highest murder rate in the nation. The state with the highest population, California, has not gone above the rate of 6 murders per 100,000 people in the same time frame. The second largest state, New York, has even less murders than California. 
+
+
+<vegachart schema-url="{{ site.baseurl }}/assets/json/Users_0Ddriley_Desktop_0Ddriley32.github.io_07ssets_jsonus_murder_rate_line.json" style="width: 100%"></vegachart>
+
+
+
+Let’s include data from other developed countries to see where the United States compares to them. Murder rates from the United Kingdom and Australia were used for this comparison. The graph below is a grouped bar chart that shows the murder rates of the United States, The United Kingdom, and Australia. Immediately, you can see that the murder rates for the United States are approximately six times higher at it’s peak that that of the UK and Australia. At the same time, the murder rates of the United Kingdom and Australia are comparable and are far less dynamic than the United States. The murder rate in the US jumps significantly during the years of the Covid Pandemic yet the other two countries did not experience that same spike. 
+
+
+
 <img src = '{{ site.baseurl }}/assets/pngs/grouped_bar_chart.png'>
 
-The first bar graph shows a comparison of murder rates per 100,000 people in the United States, United Kingdom, and Australia from the years 2010 to 2024. In 2017, the United States had a murder rate per capita of approximately 5.02. This means that for every 100,000 people in the United States, there were about five murders. 
-You can see that the United States has the highest murder rate per capita compared to the other two countries. The United States’ murder rate is approximately four to six times higher than the other two countries and is much more dynamic. The content of this graph was created by government agencies from each country who track and collect crime. 
-We can note that the years 2020 to 2023 see a large spike. This is most likely due to the Covid pandemic where crime spiked overall. However, we can see that the UK and Australia did not have a significant spike during that time. A bar graph is used for this data to show the sheer number of murders per capita present in all countries. 
+
+Below is line chart that shows the overall murder rates of each country. The staggering difference is made even clearer here. 
+
+
+<vegachart schema-url="{{ site.baseurl }}/assets/json/Users_0Ddriley_Desktop_0Ddriley32.github.io_07ssets_jsoncompare_murder_rate_lines.json" style="width: 100%"></vegachart>
+
+
+
+Below is another grouped bar chart that shows the population of all three countries. We can see that the United States’ population is approximately five times more than that UK and 13 times more than Australia. The significant difference in populations is not a significant factor in the discussion of why America has a murder problem. 
+
+
+<img src = '{{ site.baseurl }}/assets/pngs/side_population_grouped_bar.png'>
+
+
+So why does the United States have a murder problem? Some like to point the America’s violent past of the Revolutionary War, the Wild West, and the harsh trails of frontier life and Manifest Destiny as a possible cause. We have had a bloody history that we can’t shake. Yet, the United Kingdom has seen centuries of war and conquest. Because they have been around for such a long time, their history is much bloodier than ours. Australia was founded as a prison colony and was filled with the worst of the worst once upon a time. Yet both those countries have a significantly smaller murder rate comparative to ours. 
+
+However, some point to gun laws as one of the largest contributing factors of his murder problem. The United Kingdom and Australia have some of the strictest gun laws in the developed world. In both countries, civilians are only allowed to own certain types of firearms. More importantly, there are strict laws on how and where those firearms are stored. In both the UK and Australia, you must obtain a license to own a firearm and show that you have a need to have one. Self-defense is not a valid reason to own a gun in either of those countries. They also mandate that all firearms must be stored in sealed, locked containers. The United States has none of the regulations. It is most likely that the United States’ murder problem is a directly linked to the access of firearms. 
+
+
+
+BREAK
 
 
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/Users_0Ddriley_Desktop_0Ddriley32.github.io_07ssets_jsoncompare_murder_rate_lines.json" style="width: 100%"></vegachart>
 
-The second graph is a line chart which shows the same data, but in a different format. The line chart lets us see the overall trends of the murder rate more easily than the bar graph. The gap between the United States’ line and the lines of the United Kingdom and Australia are glaring. 
+
 
 <img src = '{{ site.baseurl }}/assets/pngs/side_population_grouped_bar.png'>
 
-For reference, this graph shows a comparison of the populations between the United States, the United Kingdom, and Australia. Here we see that the United States has approximately five times the population of the United Kingdom and approximately 13 times the population of Australia. This further shows that the United States has a large murder problem that isn’t seen in the other two countries. 
+
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/Users_0Ddriley_Desktop_0Ddriley32.github.io_07ssets_jsonus_murder_rate_line.json" style="width: 100%"></vegachart>
 
-The last graph is a comparison line chart for the murder rates of all US States over the years of 2010 to 2024. At first this graph may look very confusing, but using the dropdown box below the graph, you will be able to select the state you would like to look at. Once you select a state, the color of that state’s line is highlighted, and all other states turn to a light gray. This is to allow you to still compare to the other states. For this graph I chose the color scheme “dark2” as it had less similarities in the choice of colors for each line. However, there are more states than colors in that scheme and some colors repeat. 
+BREAK 
 
 <div class="left">
 {% include elements/button.html link="https://github.com/rdriley32/rdriley32.github.io/tree/main/_data" text="Data Spreadsheet Folder" %}
@@ -46,6 +77,6 @@ The last graph is a comparison line chart for the murder rates of all US States 
 </div>
 
 
-Citations for sources of all graphs are located in the “Date Spreadsheet Folder” in the “Data Spreadsheet Read Me.txt” file. 
+Please note that there was no data for the year 2016 in the dataset for the United States Homicide Rates. Citations for sources of all graphs are located in the “Date Spreadsheet Folder” in the “Data Spreadsheet Read Me.txt” file.
 
 
